@@ -1,8 +1,17 @@
+$(document).ready(function() {
+	calculateTotalTimeWords($('#text-container'));
+	minReadLeft($('#text-container'));
+});
+
+$(document).scroll(function () {
+    minReadLeft($('#text-container'));
+});
+
 //calculate how long it will take to read by word count
 var calculateTotalTimeWords = function(postContent){
     var postLength = $(postContent).text().split(' ').length/300
     var total = Math.round(postLength);
-    $("#min-read-text").text(total)
+    $(".min-read-text").text(total)
     return total;
 };
 

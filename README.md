@@ -12,11 +12,11 @@
 
 ## Requirements
 
-* Must include jQuery and calculate-time-left.js on index page. jQuery must be after calculate, like so (this could change depending on your folder structure):
+* Must include jQuery and calculate-time-left.js on index page. jQuery must be before calculate-time-left.js, like so (paths could change depending on your folder structure):
 
 ```
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>"
 <script src="/calculate-time-left.js"></script>
-<script src="/scripts.js"></script>
 ```
 
 ## Usage
@@ -58,3 +58,6 @@ $(document).scroll(function () {
 
 * The function will automatically hide/show the correct span above after the number
 
+## Demo
+
+There is a demo.html and demo.css included in the files. If you open demo.html in a browser, you can see how it works. You can delete these demo files if you like.
