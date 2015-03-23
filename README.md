@@ -56,3 +56,5 @@ $(document).scroll(function () {
 
 `<span class="min-read-text"></span> <span id="min-read"> min read</span><span id="min-left"> min left</span>`
 
+* The function will automatically hide/show the correct span above after the number
+
