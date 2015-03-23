@@ -36,7 +36,7 @@ $(document).scroll(function () {
 });
 ```
 
-* Replace textContainer above with your container of text, like minReadLeft($('##text-container'))
+* Replace textContainer above with your container of text, for example: `minReadLeft($('#text-container'))`
 
 * Wherever you want to display the number of minutes left:
 
