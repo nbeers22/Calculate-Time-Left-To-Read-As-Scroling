@@ -14,21 +14,27 @@
 
 * Must include jQuery and calculate-time-left.js on index page. jQuery must be after calculate, like so (this could change depending on your folder structure):
 
-```<script src="/calculate-time-left.js"></script>
-<script src="/scripts.js"></script>```
+```
+<script src="/calculate-time-left.js"></script>
+<script src="/scripts.js"></script>
+```
 
 ## Usage
 
 * within your main JS file, have:
 
-```$(document).ready(function() {
+```
+$(document).ready(function() {
 	calculateTotalTimeWords(textContainer);
 	minReadLeft(textContainer);
-});```
+});
+```
 
-```$(document).scroll(function () {
+```
+$(document).scroll(function () {
     minReadLeft(textContainer);
-});```
+});
+```
 
 * Replace textContainer above with your container of text, like minReadLeft($('##text-container'))
 
@@ -40,9 +46,11 @@
 
 * You must create a css class called hidden for this to work in your main css file:
 
-```.hidden {
+```
+.hidden {
 	display: none;
-}```
+}
+```
 
 * If you want text after it to say min read while at the top of the document or min left once the user begins to scroll, you can add right after, like so:
 
