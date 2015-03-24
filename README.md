@@ -15,7 +15,7 @@
 * Must include jQuery and calculate-time-left.js on index page. jQuery must be before calculate-time-left.js, like so (paths could change depending on your folder structure):
 
 ```
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>"
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 <script src="/calculate-time-left.js"></script>
 ```
 
@@ -60,4 +60,4 @@ $(document).scroll(function () {
 
 ## Demo
 
-There is a demo.html and demo.css included in the files. If you open demo.html in a browser, you can see how it works. You can delete these demo files if you like.
+There is a demo.html/demo.css/demo.js included in the files. If you open demo.html in a browser, you can see how it works. You can delete these demo files if you like. Also, included is a minified version of the JS file.
